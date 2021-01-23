@@ -11,5 +11,5 @@ echo "Pulseaudio MySink Loaded"
 pactl set-default-sink MySink #setting Mysink as default Mic
 echo "MySink Is Now Your Default Mic"
 echo "Now Start xrdp and login and join a VoiceChat"
-cd /home/vcbot 
+cd /home/vcpb
 python3 bot.py
