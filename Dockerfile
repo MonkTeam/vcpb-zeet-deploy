@@ -131,7 +131,6 @@ RUN cd /root && \
 COPY xrdp.ini /etc/xrdp/xrdp.ini
 COPY autostartup.sh /root/
 COPY __init__.py /home/__init__.py
-COPY config.py /home/vcbot/config/config.py
 COPY xrdp-start.sh /
 COPY script.sh /home/
 COPY createusers.txt /root/
